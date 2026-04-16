@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head
+    prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"
+  >
+    <meta charset="UTF-8" />
+    <title>トップページ | サイト名</title>
+    <meta name="description" content="サイトの説明文" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="canonical" href="あなたのサイトURL" />
+    <link rel="icon" type="image/png" href="ファビコンのパス" />
+    <!-- OGP設定 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="あなたのサイトURL" />
+    <meta property="og:image" content="SNSで表示させたい画像のパス" />
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:description" content="サイトの説明文" />
+    <!-- Facebook用設定 -->
+    <meta property="fb:app_id" content="facebookのApp ID" />
+    <meta property="article:publisher" content="FacebookページのURL" />
+    <!-- Twitter用設定 -->
+    <meta name="twitter:card" content="Twitterカードの種類" />
+    <meta name="twitter:site" content="@ユーザー名" />
+    <!-- スタイルシートはここから -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+
+  <body data-spy="scroll" data-taget="#navbar">
+    <header>
+      <!-------------------------------------------------------------------------------------->
+      <!-- ジャンボトロン　jumbotron -->
+      <div class="jumbotron-fluid py-5 bg-brand-color">
+        <div class="container">
+          <div class="text-left mb-3">
+            <a href="./"
+              ><img src="img/logo.png" alt="corporate logo" class="logo"
+            /></a>
+          </div>
+          <p class="text-white h3 text-center">About the Saito Laboratory</p>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.jumbotron-fluid -->
+      <!-------------------------------------------------------------------------------------->
+      <!-- ナビゲーション navbar　-->
+      <div class="container-fluid bg-light py-2 py-md-0">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+            <!-- スマホ用ナブバー展開ボタン -->
+            <button
+              class="navbar-toggler bg-light"
+              type="button"
+              data-toggle="collapse"
+              data-target="#glovalNavbar"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbarの要素 -->
+            <div class="collapse navbar-collapse" id="glovalNavbar">
+              <ul
+                class="navbar-nav mr-auto mb-2 nav-fill w-100 nav-justified py-3 py-lg-0"
+              >
+                <li class="nav-item border-left border-right">
+                  <a href="index-e.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item border-right">
+                  <a href="study-e.html" class="nav-link">Research content</a>
+                </li>
+                <li class="nav-item border-right">
+                  <a href="educate-e.html" class="nav-link">About the Saito Laboratory</a>
+                </li>
+                <li class="nav-item border-right">
+                  <a href="link-e.html" class="nav-link">link</a>
+                </li>
+                <li class="nav-item border-right">
+                  <a href="https://www.eng.tohoku.ac.jp/map/?menu=campus&area=a01&build=55" class="nav-link" target=_blank>access</a>
+                </li>
+                <li class="nav-item border-right">
+                  <a href="index.html" class="nav-link">日本語</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-------------------------------------------------------------------------------------->
+    </header>
+    <!-------------------------------------------------------------------------------------->
+    <!-- パンくずリスト-->
+    <nav class="breadcrumb-list" aria-label="breadcrumb list">
+      <div class="container p-0">
+        <ol class="breadcrumb mb-0 rounded-0 breadcrumb-list">
+          <li class="breadcrumb-item">
+            <a href="index-e.html" class="text-light">HOME</a>
+          </li>
+          <li class="breadcrumb-item active text-light" aria-current="page">
+            About the Saito Laboratory
+          </li>
+        </ol>
+      </div>
+    </nav>
+    <!-------------------------------------------------------------------------------------->
+    <main>
+      <!-------------------------------------------------------------------------------------->
+      <section id="sec01">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-4 px-2 mt-3">
+              <div id="list-example" class="list-group menufixed d-none d-md-block">
+                <a
+                  class="list-group-item list-group-item-action active"
+                  href="#list-item-1"
+                  >Educational Activities</a
+                >
+              </div>
+            </div>
+            <div class="col-12 col-md-8 py-3">
+              <h3 class="text-left font-weight-bold">About the Saito Laboratory</h3>
+              <div class="mt-5">
+                <div
+                  data-spy="scroll"
+                  data-target="#list-example"
+                  data-offset="0"
+                  class="scrollspy-example"
+                >
+                <p>
+                    Tohoku University, National University Corporation<br />
+                    Graduate School of Environmental Studies<br />
+                    Advanced Social and Environmental Studies</p>
+                  <h7 id="list-item-0">Professor PhD (Academic)</h7>
+                  <h4>Prof. Yuko Saito</h4>
+                  <a class="mt-20 h3 text-primary" href="https://researchmap.jp/yuko-saito" target=_blank> >> researchmap</a>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------------------------------------------------------------->
+    </main>
+    <!-------------------------------------------------------------------------------------->
+    <footer class="text-center text-muted bg-white">
+      <section class="bg-light py-5">
+        <div class="container">
+          <h2>
+            <img
+              src="img/logo-f.png"
+              alt="footer logo"
+              class="footer-logo mb-3"
+            />
+          </h2>
+          <address class="text-md-left text-lg-center">
+            <h3 class="text-center h5">
+              Tohoku University Graduate School of Environmental Studies
+              Department of Advanced Social and Environmental Studies
+              <br />Saito Laboratory
+            </h3>
+            <div class="col-12">
+              <p class="d-md-inline mb-0">〒980-8579</p>
+              <p class="d-md-inline mb-0">
+                Sendai City, Aoba Ward, Aramaki Aoba 6-6-20
+              </p>
+            </div>
+            <div class="col-12">
+              <p class="d-md-inline mb-0 mr-md-2">TEL 022-795-3859</p>
+              <p class="d-md-inline">FAX 022-795-3859</p>
+            </div>
+          </address>
+        </div>
+      </section>
+      <div class="pt-5">
+        <ul class="list-unstyled text-small text-center">
+          <li class="d-lg-inline-block m-0 border-left border-right">
+            <a href="study-e.html" class="mx-3 text-muted">Research content</a>
+          </li>
+          <li class="d-lg-inline-block m-0 border-right">
+            <a href="educate-e.html" class="mx-3 text-muted"
+              >Saito Laboratory</a
+            >
+          </li>
+          <li class="d-lg-inline-block m-0 border-right">
+            <a href="link-e.html" class="mx-3 text-muted">link</a>
+          </li>
+          <li class="d-lg-inline-block m-0 border-right">
+            <a href="https://www.eng.tohoku.ac.jp/map/?menu=campus&area=a01&build=55" class="mx-3 text-muted">access</a>
+          </li>
+        </ul>
+        <h4 class="text-center h6">
+          2025 &copy; Saito Laboratory All Rights Reserved.
+        </h4>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

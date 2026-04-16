@@ -1,0 +1,122 @@
+$green: rgb(38, 105, 38);
+$lightgreen: rgb(102, 126, 79);
+$fade-duration: 0.6s;
+img {
+  &.logo {
+    height: 60px;
+    width: auto;
+  }
+}
+a {
+  &.hover-green {
+    width: 140px;
+    &:hover {
+      color: $green;
+    }
+  }
+}
+
+.brand-color {
+  color: $green !important;
+}
+.bg-brand-color {
+  background-color: $green !important;
+}
+.fs-1 {
+  font-size: 30px;
+  color: #000;
+}
+.boxes {
+  &:hover {
+    background-color: rgb(207, 238, 207) !important;
+    transition: background-color $fade-duration ease-in-out;
+  }
+  a {
+    width: 100%;
+    display: block;
+    &:hover {
+      i {
+        color: $green;
+      }
+    }
+  }
+}
+ul {
+  &.list-menu {
+    li {
+      padding: 0;
+      a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        &:hover {
+          text-decoration: none;
+          background-color: $lightgreen;
+          color: #fff;
+        }
+      }
+      &.active {
+        background-color: $lightgreen !important;
+        border: none !important;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.breadcrumb-list,
+.breadcrumb-list li {
+  background-color: $green !important;
+}
+
+.mainbox {
+  height: 500px;
+  overflow-y: scroll;
+  border: 1px solid red;
+}
+
+.menufixed {
+  position: sticky;
+  top: 20px;
+}
+
+.list-group-item {
+  &.active {
+    background-color: $lightgreen;
+  }
+}
+
+.mt-10{ margin-top:10px;}
+.mt-20{ margin-top:20px;}
+.mt-30{ margin-top:30px;}
+.mt-40{ margin-top:40px;}
+.mt-50{ margin-top:50px;}
+.mt-100{ margin-top:100px;}
+
+
+.text-title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:2.5em;
+  text-shadow: 3px 3px 1px #000;
+}
+.text-title-2{
+  font-family: Sawarabi Mincho, 'Arial Narrow Bold', sans-serif;
+  font-size:2.5em;
+  text-shadow: 3px 3px 1px #000;
+}
+.text-title-3{
+  font-family: "Meiryo";
+  font-size:2.5em;
+  text-shadow: 3px 3px 1px #000;
+}
+.text-title-4{
+  font-family: 'Tangerine', serif;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px #ccc;
+}
+.text-title-5{
+  font-family: "メイリオ", meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px #000;
+}
